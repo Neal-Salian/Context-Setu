@@ -63,15 +63,3 @@ A "Highlight & Explain" Chrome Extension for reading documentation (React Docs, 
 - **Data:** JSON-based User Context Profiles
 
 ---
-
-## 🚀 Installation & Setup
-
-### Prerequisites
-- Python 3.10+
-- Node.js & npm
-- An API Key (AWS Bedrock or Gemini)
-
-### 1. Clone the Repo
-```bash
-git clone [https://github.com/yourusername/code-katha.git](https://github.com/yourusername/code-katha.git)
-cd code-katha
