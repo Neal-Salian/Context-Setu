@@ -1,6 +1,5 @@
 # 🇮🇳 Code-Katha: The Story of Code
 
-> **Winner/Participant of AI for Bharat Hackathon 2026**
 >
 > *Turning complex Code into relatable Stories for India.*
 
