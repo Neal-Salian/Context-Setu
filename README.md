@@ -1,10 +1,11 @@
 # 🇮🇳 Code-Katha: The Story of Code
 
+> **Project for AI for Bharat Hackathon 2026**
 >
 > *Turning complex Code into relatable Stories for India.*
 
 [![License: MIT](https://img.shields.io/badge/License-MIT-yellow.svg)](https://opensource.org/licenses/MIT)
-[![Tech Stack](https://img.shields.io/badge/Tech-MCP%20%7C%20FastAPI%20%7C%20React-blue)](https://github.com/yourusername/code-katha)
+[![Tech Stack](https://img.shields.io/badge/Tech-MCP%20%7C%20FastAPI%20%7C%20React-blue)](https://github.com/)
 [![Hackathon](https://img.shields.io/badge/Track-AI%20for%20Learning-orange)](https://aws.amazon.com/)
 
 ---
@@ -62,3 +63,10 @@ A "Highlight & Explain" Chrome Extension for reading documentation (React Docs, 
 - **Data:** JSON-based User Context Profiles
 
 ---
+
+## 🚀 Installation & Setup
+
+### Prerequisites
+- Python 3.10+
+- Node.js & npm
+- An API Key (AWS Bedrock or Gemini)
