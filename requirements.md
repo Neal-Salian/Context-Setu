@@ -1,12 +1,12 @@
-# Requirements Document: Code-Katha (The Concept Localizer)
+# Requirements Document: Context-Setu (The Concept Localizer)
 
 ## Introduction
 
-Code-Katha is an AI-powered educational tool designed to localize technical programming concepts for Indian students by translating abstract technical documentation into culturally relevant analogies and examples. The system uses Indian cultural metaphors (Cricket, Bollywood, Traffic, Chai Tapri, etc.) to make programming concepts more accessible and relatable. The tool integrates with development environments through an MCP server and provides a browser extension for on-demand localization.
+Context-Setu is an AI-powered educational tool designed to localize technical programming concepts for Indian students by translating abstract technical documentation into culturally relevant analogies and examples. The system uses Indian cultural metaphors (Cricket, Bollywood, Traffic, Chai Tapri, etc.) to make programming concepts more accessible and relatable. The tool integrates with development environments through an MCP server and provides a browser extension for on-demand localization.
 
 ## Glossary
 
-- **System**: The Code-Katha application including all components (MCP Server, Browser Extension, Analogy Engine)
+- **System**: The Context-Setu application including all components (MCP Server, Browser Extension, Analogy Engine)
 - **MCP_Server**: Model Context Protocol server that exposes localization capabilities to development tools
 - **Analogy_Engine**: AI-powered component that generates culturally relevant analogies using LLMs
 - **Browser_Extension**: Chrome extension that allows users to localize web content
