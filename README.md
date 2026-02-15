@@ -1,8 +1,8 @@
-# 🇮🇳 Code-Katha: The Story of Code
+# 🇮🇳 Context-Setu: The Concept Localizer
 
 > **Project for AI for Bharat Hackathon 2026**
 >
-> *Turning complex Code into relatable Stories for India.*
+> *Bridging the gap between Western Code and Indian Context.*
 
 [![License: MIT](https://img.shields.io/badge/License-MIT-yellow.svg)](https://opensource.org/licenses/MIT)
 [![Tech Stack](https://img.shields.io/badge/Tech-MCP%20%7C%20FastAPI%20%7C%20React-blue)](https://github.com/)
@@ -19,11 +19,11 @@ Millions of Indian students learn to code using tutorials written for a Western 
 This creates a **cognitive disconnect**. Students understand the *syntax* (English) but fail to grasp the *logic* because the underlying story is alien to their daily life.
 
 ## 💡 The Solution
-**Code-Katha** (literally "Code Story") is an AI-powered "Pedagogical Localization" engine. It doesn't just translate language; it translates **Context**.
+**Context-Setu** (literally "Context Bridge") is an AI-powered "Pedagogical Localization" engine. It doesn't just translate language; it translates **Context**.
 
-It intercepts technical documentation and code in real-time and rewrites them as **relatable Indian stories**—making complex concepts instantly intuitive.
+It intercepts technical documentation and code in real-time and rewrites them using **hyper-local Indian metaphors**—bridging the gap between abstract concepts and daily reality.
 
-| Original Concept (Western) | Code-Katha Rewrite (Indian Context) |
+| Original Concept (Western) | Context-Setu Rewrite (Indian Context) |
 | :--- | :--- |
 | **Load Balancer** managing "Black Friday Traffic" | **Traffic Police** managing "Mumbai Ganpati Visarjan" |
 | **Array Indexing** using "Baseball Innings" | **Tiffin Box Layers** (Dabba System) |
@@ -33,11 +33,11 @@ It intercepts technical documentation and code in real-time and rewrites them as
 
 ## ✨ Key Features
 
-### 1. 🧠 The "Katha" Engine (Analogy Generator)
+### 1. 🧠 The "Setu" Engine (Analogy Generator)
 A powerful LLM-based engine that detects technical concepts (Recursion, APIs, OOPs) and swaps generic examples with culturally relevant stories (Bollywood, Cricket, Festivals, Agriculture).
 
 ### 2. 🔌 Model Context Protocol (MCP) Server
-We go beyond the browser! Code-Katha runs as an **MCP Server**, meaning it works natively inside:
+We go beyond the browser! Context-Setu runs as an **MCP Server**, meaning it works natively inside:
 - **VS Code** (via extensions)
 - **Claude Desktop**
 - **Cursor IDE**
@@ -70,3 +70,32 @@ A "Highlight & Explain" Chrome Extension for reading documentation (React Docs, 
 - Python 3.10+
 - Node.js & npm
 - An API Key (AWS Bedrock or Gemini)
+
+### 1. Clone the Repo
+```bash
+git clone [https://github.com/your-username/Context-Setu.git](https://github.com/your-username/Context-Setu.git)
+cd Context-Setu
+```
+### 2. Set up the Backend (MCP Server)
+```bash
+cd backend
+python -m venv venv
+source venv/bin/activate  # On Windows: venv\Scripts\activate
+pip install -r requirements.txt
+
+# Create a .env file and add your API Key
+echo "API_KEY=your_key_here" > .env
+
+# Run the MCP Server
+python server.py
+```
+### 3. Set up the Frontend (Chrome Extension)
+```bash
+cd frontend
+npm install
+npm run build
+```
+Go to chrome://extensions, enable "Developer Mode", and click "Load Unpacked". Select the frontend/dist folder.
+
+## 📄 License
+Distributed under the MIT License. See LICENSE for more information.
