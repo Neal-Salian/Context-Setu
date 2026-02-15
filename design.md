@@ -1,8 +1,8 @@
-# Design Document: Code-Katha (The Concept Localizer)
+# Design Document: Context-Setu (The Concept Localizer)
 
 ## Overview
 
-Code-Katha is a distributed system that localizes technical programming concepts for Indian students through culturally relevant analogies. The architecture consists of four main components:
+Context-Setu is a distributed system that localizes technical programming concepts for Indian students through culturally relevant analogies. The architecture consists of four main components:
 
 1. **MCP Server** (Python/FastAPI): Core backend service exposing localization capabilities via Model Context Protocol
 2. **Analogy Engine** (Python): AI-powered service using LLMs (AWS Bedrock Claude 3 or Google Gemini) to generate cultural analogies
@@ -520,7 +520,7 @@ const Popup: React.FC = () => {
   
   return (
     <div className="popup-container">
-      <h2>Code-Katha</h2>
+      <h2>Context-Setu</h2>
       <ProfileDisplay profile={profile} />
       <button onClick={() => setIsConfigured(false)}>
         Edit Profile
@@ -1204,7 +1204,7 @@ The system requires both unit tests and property-based tests for comprehensive c
 
 **Test Configuration**:
 - Minimum 100 iterations per property test
-- Each test tagged with: `Feature: code-katha, Property N: [property description]`
+- Each test tagged with: `Feature: Context-Setu, Property N: [property description]`
 - Timeout: 30 seconds per property test
 - Shrinking enabled to find minimal failing examples
 
@@ -1221,7 +1221,7 @@ import pytest
     )
 )
 @pytest.mark.property_test
-@pytest.mark.tag("Feature: code-katha, Property 1: Profile Round-Trip Consistency")
+@pytest.mark.tag("Feature: Context-Setu, Property 1: Profile Round-Trip Consistency")
 def test_profile_roundtrip(text, profile):
     """Property 1: Storing and retrieving a profile should preserve all data."""
     # Store profile
@@ -1241,7 +1241,7 @@ def test_profile_roundtrip(text, profile):
 import fc from 'fast-check';
 import { describe, it, expect } from 'vitest';
 
-describe('Feature: code-katha, Property 14: Browser Extension Caching', () => {
+describe('Feature: Context-Setu, Property 14: Browser Extension Caching', () => {
   it('should return cached results for repeated requests', async () => {
     await fc.assert(
       fc.asyncProperty(
